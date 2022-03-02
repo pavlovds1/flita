@@ -35,7 +35,8 @@ int main() {
             scanf("%d",&count);
             printf("Введите числа");
             while (count > 0) {
-                array[len] = scanf("%d", &a);
+                scanf("%d", &a);
+                array[len] = a;
                 count--;
                 len++;
             }
